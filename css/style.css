@@ -105,10 +105,7 @@ textarea:focus{
 
 /* Barra */
 .nav{
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  align-items: center;
+  margin: 2rem 3rem;
 }
 
 .nav h1 {
@@ -116,8 +113,13 @@ textarea:focus{
 }
 
 /*Main*/
-main{
-  display: flex;
+@media (min-width: 1024px){
+  main{
+    display: flex;
+    height: 100vh;
+    justify-content: space-evenly;
+  }
+    
 }
 
 /* Formulario */
@@ -138,11 +140,39 @@ main{
   display: inline-block;
 }
 
+@media (min-width: 768px){
+    .botones{
+      display: flex;
+      justify-content: space-between;
+      column-gap: 4rem;
+    }
+}
+
 .desencriptador{
   background-color: #fff;
   padding: 3rem;
   border-radius: 0.5rem;  
   text-align: center;
+  margin: 0 3rem;
+}
+
+.desencriptador img {
+  display: none;
+}
+
+@media (min-width: 1024px){
+
+  .desencriptador{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    height: 85%;
+  }
+    .desencriptador img{
+      display: block;
+      width: 80%;
+    }
 }
 
 .desencriptador p {
@@ -166,4 +196,8 @@ main{
 /*Resultado*/
 .resultado__pc{
   display: none;
+}
+
+@media (min-width: 1024px){
+    
 }
