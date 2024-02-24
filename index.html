@@ -6,13 +6,42 @@
   <title>Encriptador </title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<!-- Imagenes para usar
-  <img src="https://app.aluracursos.com/assets/images/logos/logo-aluraespanhol.svg" alt="Logo Alura">
-  <img src="https://cdn2.gnarususercontent.com.br/6/449886/e4621638-6168-4948-a623-76dcfdefd99c.png" alt="Logo Oracle One"> -->
-</body>
+  <header class="header container">
+      <nav class="nav">
+        <img src="https://app.aluracursos.com/assets/images/logos/logo-aluraespanhol.svg" alt="Logo Alura">
+        <h1>Encriptador</h1>
+      </nav>
+  </header>
+
+  <main>
+    <form action="" class="formulario ">
+      <div class="campo encriptador">
+        <textarea name="" id="" placeholder="Ingresa el texto aquí..."></textarea>
+      </div>
+
+      <p class="alerta"></p>
+
+      <div class="botones">
+        <input type="submit" value="encriptar" class="boton btn-encriptar" >
+        <input type="submit" value="desencriptar" class="boton btn-desencriptar" >
+      </div>
+
+      <div class="sombra desencriptador">
+        <h4>Ningún mensaje fue encontrado</h4>
+        <p> Ingresa el texto que desse encriptar o desencriptar</p>
+      </div>
+    </form>
+
+    <div class="resultado__pc">
+      <h1>IMAGEN AQUI</h1>
+    </div>
+  </main> 
+
+
 </html>
