@@ -19,16 +19,16 @@
   </header>
 
   <main class="">
-    <form action="" class="formulario ">
+    <form action="" class="formulario " id="formulario">
       <div class="campo encriptador">
-        <textarea name="" id="" placeholder="Ingresa el texto aquí..."></textarea>
+        <textarea name="" id="texto_encriptado" placeholder="Ingresa el texto aquí..."></textarea>
       </div>
 
       <p class="alerta"></p>
 
       <div class="botones">
-        <input type="submit" value="encriptar" class="boton btn-encriptar" >
-        <input type="submit" value="desencriptar" class="boton btn-desencriptar" >
+        <input type="submit" value="encriptar" class="boton btn-encriptar" id="encriptar" >
+        <input type="submit" value="desencriptar" class="boton btn-desencriptar" id="desencriptar" >
       </div>
     </form>
 
@@ -42,5 +42,7 @@
     
   </main> 
 
+  <script src="script.js"></script>
+</body>
 
 </html>

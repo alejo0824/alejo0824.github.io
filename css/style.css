@@ -5,6 +5,7 @@
   --dark-gray: #f6f6f6;
   --dark-blue:#0A3871;
   --white:#fff;
+  ---red:#CA3C25;
 }
 html {
   box-sizing: border-box;
@@ -51,6 +52,15 @@ h4 {
     margin: 0;
 }
 
+.error{
+  background-color: var(---red);
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--white);
+  text-align: center;
+  border-radius: 1rem;
+}
 .boton{
   display: block;
   font-family: var(--fuente);
